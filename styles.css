@@ -1,37 +1,36 @@
 body {
-	background-color: #d3d3da;
+	background-color: #550A35;
 	margin: 0;
   	padding: 0;
 }
 
 .sidebar h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   font-size: 350%;
-  color: #d3d3da;
+  color: #550A35;
   display: block;
   padding: 16px;
   padding-top: 0;
   margin:0;
   font-weight: 600;
   text-align: center;
-    font-style:italic;
+  font-style: bold
 }
 
 .sidebar h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   font-size: 150%;
-  color: #d3d3da;
+  color: #550A35;
   display: block;
   padding: 16px;
   margin: 0;
   font-weight: 400;
-  font-style: italic;
   text-align: center;
 }
 
 .sidebar h3{
-  font-family: "Playfair Display", serif;
-  color: #d3d3da;
+  font-family: "PT Serif", serif;
+  color: #550A35;
   display: block;
   padding: 16px;
   margin: 0;
@@ -44,21 +43,21 @@ body {
 }
 
 .content h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
 }
 
 .content h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
 }
 
 .content p {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   font-size: 130%;
-  
+  color: #FFF0F5;
 }
 
 .content li {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   font-size: 130%;  
 }
 
@@ -71,13 +70,13 @@ body {
 }
 
 .content a {
-  color: #4c4a6c;
+  color: #C71585;
   font-weight: 600;
   text-decoration: none;
 }
 
 #footer p {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   text-align: center;
 }
 
@@ -103,7 +102,7 @@ div.content {
   margin: 0;
   padding: 0;
   width: 350px;          /* <--- CHANGE US TOGETHER */
-  background-color: #262536;
+  background-color: #FFF0F5;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -111,9 +110,9 @@ div.content {
 
 /* Sidebar links */
 .sidebar a {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   display: block;
-  color: #d3d3da;
+  color: #550A35;
   padding: 16px;
   padding-right: 30px;
   text-decoration: none;
@@ -122,9 +121,9 @@ div.content {
 }
 
 #colophon a {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
   font-size: 100%;
-  color: #d3d3da;
+  color: #FFF0F5;
   display: block;
   padding: 0px;
   padding-top: 0;
@@ -133,21 +132,43 @@ div.content {
   text-align: center;
 }
 
+p.indent{text-indent: 30px;}
+
+.title{
+    font-family: "PT Serif", serif;
+  font-size: 190%;
+  color: #FFF0F5;
+  display: block;
+  padding: 16px;
+  padding-top: 0;
+  margin:0;
+  font-weight: 600;
+  text-align: center;
+    font-style: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4c4a6c;
-  color: #d3d3da;
+  background-color: #C71585;
+  color: #FFF0F5;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #393751;
-  color: #d3d3da;
+  background-color: #C71585;
+  color: #FFF0F5;
 }
 
 #colophon a:hover:not(.active) {
-  background-color: 262536;
-  color: #d3d3da;
+  background-color: #C71585;
+  color: #FFF0F5;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
